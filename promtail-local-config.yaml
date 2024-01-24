@@ -42,7 +42,7 @@ scrape_configs:
 
   windows_events:
     use_incoming_timestamp: false
-    bookmark_path: C:\temp\promtail\main\promtail-main\bookmark.xml
+    bookmark_path: C:\promtail\main\promtail-main\bookmark.xml
     eventlog_name: "System"
     xpath_query: '*'
 
@@ -60,7 +60,7 @@ scrape_configs:
 
   windows_events:
     use_incoming_timestamp: false
-    bookmark_path: C:\temp\promtail\main\promtail-main\bookmark.xml
+    bookmark_path: C:\promtail\main\promtail-main\bookmark.xml
     eventlog_name: "Security"
     xpath_query: '*'
 
@@ -78,6 +78,6 @@ scrape_configs:
 
   windows_events:
     use_incoming_timestamp: false
-    bookmark_path: C:\temp\promtail\main\promtail-main\bookmark.xml
+    bookmark_path: C:\promtail\main\promtail-main\bookmark.xml
     eventlog_name: "Setup"
     xpath_query: '*'
